@@ -50,6 +50,7 @@ As explained in the notebook, some improvements can still be done.
 * To share the results with a Marketing department, the plots need to be improved. As there are a lot of different products, they should be grouped by categories and then we should extract the distribution per category over countries.
 * European Community and Unspecified countries were not managed in the World Map plot, we should include them as additional information
 * The dataset was quite incomplete (missing somme price unit, some invoices, some clients, ...). Here we decided to ignore this incomplete data but it can be useful to extract it in order to improve the acqquisition procedure for next time
+* The display of World map of transactions per countries is not kept in jupyter notebook and we cannot fix this bug. To avoid loading it each time, we find a countermeasure by saving this map in **map.html** file (but this html does not display the popup, so it's still better to run notebook)
 * As explained in last section in notebook, the product should be grouped in categories to apply some NLP solution over description. For it, few steps are required:
     * Prepare a training dataset, by annotating manually as corresponding categories a part of the dataset
     * Implement an NLP algorithm
