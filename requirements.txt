@@ -1,0 +1,8 @@
+jupyter
+matplotlib
+pymongo
+pyspark
+pandas
+geopy
+folium
+openpyxl
